@@ -28,6 +28,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/result_type.rs).
+
 ## The `Option` Type
 
 The `Option` type is used when a value could be something or nothing.
@@ -41,6 +43,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/option_type.rs).
+
 ## `unwrap` and `expect`
 
 You can use `unwrap` and `expect` to handle errors in a more concise way.
@@ -53,5 +57,7 @@ fn main() {
     let f = File::open("hello.txt").expect("Failed to open hello.txt");
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/unwrap_and_expect.rs).
 
 Next: [Collections](../06-Collections/README.md)

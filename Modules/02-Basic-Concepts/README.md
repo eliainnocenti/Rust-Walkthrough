@@ -18,6 +18,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/variables_and_mutability.rs).
+
 ## Data Types
 
 Rust is a statically typed language, which means that it must know the types of all variables at compile time. Here are some basic data types:
@@ -38,6 +40,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/data_types.rs).
+
 ## Functions
 
 Functions are defined using the `fn` keyword. Here's an example:
@@ -51,6 +55,8 @@ fn five() -> i32 {
     5
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/functions.rs).
 
 ## Control Flow
 
@@ -85,5 +91,7 @@ fn main() {
     }
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/control_flow.rs).
 
 Next: [Ownership and Borrowing](../03-Ownership-and-Borrowing/README.md)

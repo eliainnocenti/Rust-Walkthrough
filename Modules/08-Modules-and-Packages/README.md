@@ -18,6 +18,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/modules.rs).
+
 ## Packages and Crates
 
 A package is a bundle of one or more crates. A crate is a binary or library.
@@ -65,5 +67,7 @@ A package is a bundle of one or more crates. A crate is a binary or library.
         println!("The result is {}", result);
     }
     ```
+
+You can find the code for this section in the [workspace directory](workspace/packages_and_crates.rs).
 
 Next: [Concurrency](../09-Concurrency/README.md)

@@ -41,6 +41,8 @@ Now that you have Rust installed, let's dive into writing your first Rust progra
 
     You should see `Hello, world!` printed to the console.
 
+You can find the code for this section in the [workspace directory](workspace/hello_cargo.rs).
+
 ## Exploring Cargo
 
 Cargo makes it easy to manage dependencies and build your project. Here are some useful commands:

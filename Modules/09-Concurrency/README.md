@@ -27,6 +27,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/threads.rs).
+
 ## Channels
 
 Channels provide a way to communicate between threads.
@@ -47,6 +49,8 @@ fn main() {
     println!("Got: {}", received);
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/channels.rs).
 
 ## Shared State
 
@@ -76,5 +80,7 @@ fn main() {
     println!("Result: {}", *counter.lock().unwrap());
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/shared_state.rs).
 
 Next: [Advanced Topics](../10-Advanced-Topics/README.md)

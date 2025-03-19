@@ -21,6 +21,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/vectors.rs).
+
 ## Strings
 
 Strings are implemented as a collection of bytes plus some methods to provide useful functionality when those bytes are interpreted as text.
@@ -37,6 +39,8 @@ fn main() {
     println!("{}", s);
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/strings.rs).
 
 ## Hash Maps
 
@@ -58,5 +62,7 @@ fn main() {
     }
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/hash_maps.rs).
 
 Next: [Iterators and Closures](../07-Iterators-and-Closures/README.md)

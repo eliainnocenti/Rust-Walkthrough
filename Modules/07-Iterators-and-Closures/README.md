@@ -18,6 +18,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/iterators.rs).
+
 ## Closures
 
 Closures are anonymous functions that you can save in a variable or pass as arguments to other functions.
@@ -31,6 +33,8 @@ fn main() {
     println!("{}", add_two(5));
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/closures.rs).
 
 ## Using Closures with Iterators
 
@@ -47,5 +51,7 @@ fn main() {
     println!("{:?}", v3);
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/using_closures_with_iterators.rs).
 
 Next: [Modules and Packages](../08-Modules-and-Packages/README.md)

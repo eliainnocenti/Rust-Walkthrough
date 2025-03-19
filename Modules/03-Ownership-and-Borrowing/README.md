@@ -14,6 +14,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/ownership.rs).
+
 ## Borrowing
 
 Instead of transferring ownership, you can borrow a value using references. References are immutable by default.
@@ -29,6 +31,8 @@ fn calculate_length(s: &String) -> usize {
     s.len()
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/borrowing.rs).
 
 ## Mutable References
 
@@ -46,6 +50,8 @@ fn change(some_string: &mut String) {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/mutable_references.rs).
+
 ## Slices
 
 Slices let you reference a contiguous sequence of elements in a collection rather than the whole collection.
@@ -58,5 +64,7 @@ fn main() {
     println!("{} {}", hello, world);
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/slices.rs).
 
 Next: [Structs and Enums](../04-Structs-and-Enums/README.md)

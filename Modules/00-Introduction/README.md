@@ -45,4 +45,6 @@ Welcome to the Rust programming language! Rust is a systems programming language
 
 Congratulations! You've written and run your first Rust program.
 
+You can find the code for this section in the [workspace directory](workspace/hello_world.rs).
+
 Next: [Getting Started](../01-Getting-Started/README.md)

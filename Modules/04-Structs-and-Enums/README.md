@@ -24,6 +24,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/structs.rs).
+
 ## Enums
 
 Enums allow you to define a type by enumerating its possible variants.
@@ -41,6 +43,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/enums.rs).
+
 ## Pattern Matching
 
 Pattern matching is used to work with enums.
@@ -57,5 +61,7 @@ fn main() {
     }
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/pattern_matching.rs).
 
 Next: [Error Handling](../05-Error-Handling/README.md)

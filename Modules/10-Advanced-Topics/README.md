@@ -26,6 +26,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/lifetimes.rs).
+
 ## Traits
 
 Traits are a way to define shared behavior in Rust.
@@ -60,6 +62,8 @@ fn main() {
 }
 ```
 
+You can find the code for this section in the [workspace directory](workspace/traits.rs).
+
 ## Macros
 
 Macros are a way of writing code that writes other code.
@@ -75,6 +79,8 @@ fn main() {
     say_hello!();
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/macros.rs).
 
 ## Unsafe Rust
 
@@ -93,5 +99,7 @@ fn main() {
     }
 }
 ```
+
+You can find the code for this section in the [workspace directory](workspace/unsafe_rust.rs).
 
 Next: [Back to Introduction](../00-Introduction/README.md)
