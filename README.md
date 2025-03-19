@@ -9,23 +9,21 @@ This repository is a collection of notes, lectures, and steps to learn Rust. It 
 > [!IMPORTANT] 
 > This content is under review and may contain inaccuracies. Feedback and contributions are welcome.
 
-## Directory Structure
+## Directory Structure and How to Start Learning
 
-All the learning steps are organized under the `steps` directory:
+All the learning steps are organized under the `Modules` directory. Each directory contains a `README.md` file with detailed instructions and examples, and a `workspace/` subdirectory for test/implementation files.
 
-- `steps/00-Introduction/`: Introduction to Rust and setting up the environment.
-- `steps/01-Getting-Started/`: Writing your first Rust program.
-- `steps/02-Basic-Concepts/`: Basic syntax and concepts in Rust.
-- `steps/03-Ownership-and-Borrowing/`: Understanding Rust's ownership model.
-- `steps/04-Structs-and-Enums/`: Working with structs and enums.
-- `steps/05-Error-Handling/`: Handling errors in Rust.
-- `steps/06-Collections/`: Using collections like vectors and hash maps.
-- `steps/07-Iterators-and-Closures/`: Using iterators and closures.
-- `steps/08-Modules-and-Packages/`: Organizing code with modules and packages.
-- `steps/09-Concurrency/`: Writing concurrent programs in Rust.
-- `steps/10-Advanced-Topics/`: Advanced topics and best practices.
-
-Each directory contains a `README.md` file with detailed instructions and examples, and a `workspace/` subdirectory for test/implementation files.
+1. **Introduction to Rust**: Start with the [`Introduction`](Modules/00-Introduction/README.md) to set up your environment and write your first Rust program.
+2. **Getting Started**: Move on to [`Getting Started`](Modules/01-Getting-Started/README.md) to learn how to create and manage Rust projects using Cargo.
+3. **Basic Concepts**: Learn the [`Basic Concepts`](Modules/02-Basic-Concepts/README.md) of Rust, including variables, data types, functions, and control flow.
+4. **Ownership and Borrowing**: Understand Rust's unique [`Ownership and Borrowing`](Modules/03-Ownership-and-Borrowing/README.md) model.
+5. **Structs and Enums**: Work with [`Structs and Enums`](Modules/04-Structs-and-Enums/README.md) to create custom data types.
+6. **Error Handling**: Learn how to handle errors in Rust with the [`Error Handling`](Modules/05-Error-Handling/README.md) section.
+7. **Collections**: Explore Rust's [`Collections`](Modules/06-Collections/README.md) like vectors and hash maps.
+8. **Iterators and Closures**: Use [`Iterators and Closures`](Modules/07-Iterators-and-Closures/README.md) for more advanced data manipulation.
+9. **Modules and Packages**: Organize your code with [`Modules and Packages`](Modules/08-Modules-and-Packages/README.md).
+10. **Concurrency**: Write concurrent programs in Rust with the [`Concurrency`](Modules/09-Concurrency/README.md) section.
+11. **Advanced Topics**: Dive into [`Advanced Topics`](Modules/10-Advanced-Topics/README.md) and best practices.
 
 ## Getting Started
 
@@ -43,20 +41,6 @@ Before you start, make sure you have the following installed:
     - Visual Studio Code with the Rust extension
     - IntelliJ IDEA with the Rust plugin
     - Sublime Text with Rust support
-
-### How to Start Learning
-
-1. **Introduction to Rust**: Start with the [Introduction](steps/00-Introduction/README.md) to set up your environment and write your first Rust program.
-2. **Getting Started**: Move on to [Getting Started](steps/01-Getting-Started/README.md) to learn how to create and manage Rust projects using Cargo.
-3. **Basic Concepts**: Learn the [Basic Concepts](steps/02-Basic-Concepts/README.md) of Rust, including variables, data types, functions, and control flow.
-4. **Ownership and Borrowing**: Understand Rust's unique [Ownership and Borrowing](steps/03-Ownership-and-Borrowing/README.md) model.
-5. **Structs and Enums**: Work with [Structs and Enums](steps/04-Structs-and-Enums/README.md) to create custom data types.
-6. **Error Handling**: Learn how to handle errors in Rust with the [Error Handling](steps/05-Error-Handling/README.md) section.
-7. **Collections**: Explore Rust's [Collections](steps/06-Collections/README.md) like vectors and hash maps.
-8. **Iterators and Closures**: Use [Iterators and Closures](steps/07-Iterators-and-Closures/README.md) for more advanced data manipulation.
-9. **Modules and Packages**: Organize your code with [Modules and Packages](steps/08-Modules-and-Packages/README.md).
-10. **Concurrency**: Write concurrent programs in Rust with the [Concurrency](steps/09-Concurrency/README.md) section.
-11. **Advanced Topics**: Dive into [Advanced Topics](steps/10-Advanced-Topics/README.md) and best practices.
 
 ## Contributing
 
